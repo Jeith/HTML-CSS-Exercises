@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+    background-color: #F6CA37;
+}
+
+p{
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+}
+
+header{
+    height: 50px;
+    background-color: #6ACDB1;
+}
+
+div{
+    float: left;
+    height: 90%;
+    width: 200px;
+    background-color: #E63C2F;
+    position: absolute;
+}
+
+footer{
+    height: 10%;
+    background-color: #385CAE;
+    width: 100%;
+    position: absolute;
+    top: 90%
+}
