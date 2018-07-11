@@ -1,0 +1,146 @@
+html{
+	font-family: arial;
+	font-size: 13px;
+}
+a {
+	text-decoration: none;
+	font-weight: 100;
+}
+li {
+	display: inline;
+}
+form {
+	margin-right: 40%;
+	margin-left: 40%;
+}
+.signinbutton {
+	background-color: #4285f4;
+	border: none;
+	color: white;
+	padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	border-radius: 5%
+}
+.searchbar {
+	margin-top: 50px;
+	display: block;
+	text-align: center;
+	white-space: nowrap;
+}
+.searchbar form {
+	height: 35px;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	margin-bottom: 15px
+}
+.searchbar input{
+	height: 35px;
+	width: 500px;
+	font-size: 16px;
+
+}
+.searchbutton {
+	background-color: white;
+	border: none;
+	color: grey;
+	padding: 30px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	height: 30px;
+    width: 100px;
+    border: 2px;
+    letter-spacing: 2px;
+}
+.searchbutton:hover {
+	border-color: black;
+}
+.l_header{
+	position: fixed;
+	text-align: left;
+	padding-top: 7.5px;
+}
+.l_header a, .r_header a{ 
+	margin: 3px 15px 0 0; 
+	color: #757575;
+	font-weight: 100;
+}
+.r_header{
+	position: relative;
+	text-align: right;
+	padding-top: 1px;
+	padding-right: 3px;
+}
+
+.center{
+	text-align: center;
+	display: block;
+	margin: -30px auto -43px auto;
+	position: relative;
+	padding-top: 80px;
+}
+.movesearch button{
+	display: inline-block;
+    text-align: center;
+
+
+}
+.movesearch {
+	text-align: center;
+}
+.searchbutton1, .searchbutton2 {
+	height: 34px;
+	background-color: #f1f1f1;
+	border: 1px solid;
+	border-color: #f1f1f1;
+	color: #757575;
+	text-align: center;
+	font-weight: bold;
+	box-sizing: border-box;
+	border-radius: 2px;
+	margin: 11x 4px;
+	padding-left: 16px;
+	padding-right: 16px;
+	margin-top: 15px;
+}
+.searchbutton1 {
+	font-stretch: 100%;
+
+}
+.searchbutton2 {
+
+
+}
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: rgb(242, 242, 242);
+	color: #757575;
+	text-align: center;
+	padding-bottom: 15px
+}
+.l_footer a{
+	margin-right: 30px
+} 
+.l_footer a{
+	float: left;
+	color: #757575;
+}
+.r_footer a{
+	float: right;
+	margin-right: 30px;
+	color: #757575;
+	position: relative;
+	display: inline-block;
+}
+.khmer p{
+	text-align: center;
+}
