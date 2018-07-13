@@ -44,7 +44,15 @@
         .moveradio{
             margin-left: 45px;
         }
+        
 
+        .lowerit{
+            margin-top: 50px;
+        }
+
+        .center{
+            text-align: center;
+        }
     </style>
 </head>
   <body>
@@ -58,9 +66,8 @@
         </div>
     </header>  
     <div class="container">
-        <div class="infoperson">
+        <div class="infoperson lowerit">
             <p>
-              <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
               1. Enter your information:
             </p>
             <form>
@@ -72,13 +79,13 @@
                       <input type="text" class="form-control" placeholder="Last name">
                     </div>
                     <div class="col">
-                      <input type="text" class="form-control" placeholder="e-mail">
+                      <input type="text" class="form-control" placeholder="e-mail" href="mailto:keithp1208@yahoo.com">
                       </div>
                   </div>
            </form>
            <br>
         </div>
-        <div class="row">
+        <div class="row lowerit">
             <div class="col-md-2"></div>
                 <div class="firstbox col-md-4">
                 <form>
@@ -103,16 +110,16 @@
                 </form>
 
         </div>
-        <div class="row">
-            <div class="col-md-4"></div>
-            <p>Which of these countries would you most like to travel?</p>
+        <div class="row lowerit">
+            <div class="col-md-5"></div>
+            <p class='center'>Check which fruits you like: </p>
         </div>
         <div class="row">
             <div class="col-md-5"></div>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">
-                        Taiwan
+                    <label class="form-check-label center" for="defaultCheck1">
+                        Mangos
                     </label>
                 </div>
             </div>
@@ -120,8 +127,8 @@
                 <div class="col-md-5"></div>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">
-                        Ethiopia
+                    <label class="form-check-label center" for="defaultCheck1">
+                        Guava
                     </label>
                 </div>
             </div>
@@ -129,14 +136,14 @@
                     <div class="col-md-5"></div>
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                        <label class="form-check-label" for="defaultCheck1">
-                            Tajikistan
+                        <label class="form-check-label center" for="defaultCheck1">
+                            Durian
                         </label>
                     </div>
                 </div>
 
             </div>
-            <div class="row">
+            <div class="row lowerit">
                     <div class="col-md-4"></div>
                     <p>Which of these countries would you most like to travel?</p>
                 </div>
@@ -161,10 +168,15 @@
                         </label>
                         </div>
             </div>
-
-
+            <div class="row lowerit">
+                <div class="col-md-6"></div>
+            <form>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
         </div>
     </div>
+    <footer class="lowerit"></footer>
 
 
 
